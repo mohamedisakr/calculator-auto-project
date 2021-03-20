@@ -1,10 +1,10 @@
-# Calculator automation testing project
+## Calculator automation testing project
 
-## [Fizz Buzz assignment](./assignment/fizz-buzz.js)
+#### [Fizz Buzz assignment](./assignment/fizz-buzz.js)
 
-## [Testing report]('./testing-report/Testing Report.docx')
+#### [Testing report](./testing-report/Report.docx)
 
-## To run the automation testing project
+#### To run the automation testing project
 
 1. run
    ` npm install`
