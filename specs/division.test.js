@@ -14,14 +14,6 @@ describe(`Division Scenario`, () => {
     calculatorPage.setOperationToDivision();
   });
 
-  it(`${divisionByZero.description.description}`, () => {
-    let { number1, number2, expectedResult } = divisionByZero;
-    waitAndSetValue(calculatorPage.$number1, number1);
-    waitAndSetValue(calculatorPage.$number2, number2);
-    waitAndClick(calculatorPage.$calculateButton);
-    expect(calculatorPage.$errorMessage).toBeEnabled();
-  });
-
   testCases.forEach((testCase) => {
     let { description, operation, number1, number2, expectedResult } = testCase;
     it(`${description}`, () => {
@@ -36,5 +28,13 @@ describe(`Division Scenario`, () => {
 
       browser.pause(1000);
     });
+  });
+
+  it(`${divisionByZero.description.description}`, () => {
+    let { number1, number2, expectedResult } = divisionByZero;
+    waitAndSetValue(calculatorPage.$number1, number1);
+    waitAndSetValue(calculatorPage.$number2, number2);
+    waitAndClick(calculatorPage.$calculateButton);
+    expect(calculatorPage.$errorMessage).toBeEnabled();
   });
 });
