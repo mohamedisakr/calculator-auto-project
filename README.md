@@ -2,7 +2,7 @@
 
 ## [Fizz Buzz assignment](./assignment/fizz-buzz.js)
 
-## [Testing report](./testing-report/Testing Report.docx)
+## [Testing report]('./testing-report/Testing Report.docx')
 
 ## To run the automation testing project
 
