@@ -1,8 +1,8 @@
 # Calculator automation testing project
 
-## Fizz Buzz assignment [fizz-buzz.js](./assignment/fizz-buzz.js)
+## [Fizz Buzz assignment](./assignment/fizz-buzz.js)
 
-## Testing report
+## [Testing report](./testing-report/Testing Report.docx)
 
 ## To run the automation testing project
 
