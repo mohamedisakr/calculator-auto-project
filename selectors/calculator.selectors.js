@@ -1,0 +1,21 @@
+export const {
+  build,
+  number1,
+  number2,
+  operation,
+  calculateButton,
+  numberAnswer,
+  clearButton,
+  errorMessage,
+  integerOnlyCheckbox,
+} = {
+  build: "#selectBuild",
+  number1: "#number1Field",
+  number2: "#number2Field",
+  operation: "#selectOperationDropdown",
+  calculateButton: "#calculateButton",
+  numberAnswer: "#numberAnswerField",
+  clearButton: "#clearButton",
+  errorMessage: "#errorMsgField",
+  integerOnlyCheckbox: "#integerSelect",
+};

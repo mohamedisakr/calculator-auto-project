@@ -1,32 +1,44 @@
+import {
+  build,
+  number1,
+  number2,
+  operation,
+  calculateButton,
+  numberAnswer,
+  clearButton,
+  errorMessage,
+  integerOnlyCheckbox,
+} from "../selectors/calculator.selectors";
+
 class Calculator {
   get $build() {
-    return $("#selectBuild");
+    return $(build); //$("#selectBuild");
   }
   get $number1() {
-    return $("#number1Field");
+    return $(number1); //$("#number1Field");
   }
   get $number2() {
-    return $(`#number2Field`);
+    return $(number2); // $(`#number2Field`);
   }
   get $operation() {
-    return $(`#selectOperationDropdown`);
+    return $(operation); //$(`#selectOperationDropdown`);
   }
   get $calculateButton() {
-    return $(`#calculateButton`);
+    return $(calculateButton); // $(`#calculateButton`);
   }
   get $numberAnswer() {
-    return $(`#numberAnswerField`);
+    return $(numberAnswer); // $(`#numberAnswerField`);
   }
   get $clearButton() {
-    return $(`#clearButton`); // clearButton
+    return $(clearButton); // $(`#clearButton`); // clearButton
   }
 
   get $errorMessage() {
-    return $(`#errorMsgField`);
+    return $(errorMessage); // $(`#errorMsgField`);
   }
 
   get $integerOnlyCheckbox() {
-    return $(`#integerSelect`);
+    return $(integerOnlyCheckbox); // $(`#integerSelect`);
   }
 
   setOperationToSubtract() {
